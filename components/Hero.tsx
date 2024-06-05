@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magin with Next.js
+            Dynamic Web Development with Next.js
           </h2>
 
           <TextGenerateEffect
@@ -32,9 +32,9 @@ const Hero = () => {
             words={"Transforming Concepts into Seemless Experiences"}
           />
 
-          <p className="text-center mb-8">
-            Hi, I&apos;m Abubakar Khan.<br></br> A Next.js developer based in
-            Pakistan.
+          <p className="text-xl text-center mb-8">
+            Hi, I&apos;m <span className="text-purple">Abubakar Khan</span>.
+            <br></br>A Next.js developer based in Pakistan.
           </p>
           <a href="#about">
             <MagicButton

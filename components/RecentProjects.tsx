@@ -17,8 +17,8 @@ const RecentProjects = () => {
             className="sm:h-[41rem] h-[26-rem] lg:min-h-[26.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
             <PinContainer title={link} href={link}>
-              <div className="relative flex items-center justify-content sm:w-[570px] w-[80vw] overflow-hidden sm:w[40vh] h-[30vh] mb-10">
-                <div className="relative w-full h-full overflow=hidden lg:rounded-3xl bg-[#13162d]">
+              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:w[40vh] h-[30vh] mb-10">
+                <div className="relative w-full h-full bg-[#13162d]">
                   <img src="/bg.png" alt="bg-img" />
                 </div>
                 <img src={img} alt={title} className="z-10 absolute bottom-0" />
@@ -44,9 +44,12 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <a
+                    href={link}
+                    className="flex lg:text-xl md:text-xs text-sm text-purple"
+                  >
                     Check Live Site
-                  </p>
+                  </a>
                   <FaLocationArrow className="ms-3" color="#cbacf9" />
                 </div>
               </div>
